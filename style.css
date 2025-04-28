@@ -1,0 +1,46 @@
+.col-md-3 {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 20px;
+     
+}
+
+.logout{
+    margin-top: auto;/* Aligns the logout button to the bottom of the page */
+}
+
+h1{
+    color: rgb(255, 162, 0);
+    text-align: center;
+}
+
+span{
+    color: rgb(255, 106, 0)
+}
+
+/* Pour tous les liens dans .sidebar-links */
+.sidebar-links a {
+    display: flex;
+    flex-direction: column; /* empile l'icône et le texte verticalement, sinon enlève si tu veux à côté */
+    justify-content: center;
+    align-items: center; /* CENTRER horizontalement */
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+/* Effet au survol */
+.sidebar-links a:hover {
+    background-color: white; /* Fond blanc */
+    color: black; /* Texte et icône en noir */
+    border-radius: 5px; /* Coins arrondis, facultatif */
+}
+
+/* Spécifiquement pour les icônes */
+.sidebar-links a:hover .bi {
+    color: black; /* Icône devient noire au survol */
+}
+
+
